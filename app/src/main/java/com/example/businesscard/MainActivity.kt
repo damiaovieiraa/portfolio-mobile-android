@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
             BusinessCardTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    color = Color(0xFF1E1E1E)
                 ) {
                     BusinessCard(
                         name = "Damião Vieira de Souza",
